@@ -28,7 +28,7 @@ stage {
   border: none;
   margin-top: 0.5em;
   padding: 4px 32px;
-  color: #dbdee0;  
+  color: #dbdee0;
   font-weight: bold;
   background-color: rgba(255,255,255,0.0);
   background-gradient-direction: none;
@@ -108,7 +108,7 @@ StScrollBar {
     background-color: transparent; }
   StScrollBar StButton#vhandle, StScrollBar StButton#hhandle {
     border-radius: 8px;
-    background-color: #454d50;
+    background-color: #212C30;
     margin: 3px; }
     StScrollBar StButton#vhandle:hover, StScrollBar StButton#hhandle:hover {
       background-color: #515a5e; }
@@ -169,7 +169,7 @@ StScrollBar {
 .modal-dialog {
   border-radius: 2px;
   color: #dbdee0;
-  background-color: #454d50;
+  background-color: #212C30;
   border: none;
   border: none;
   box-shadow: 0 5px 10px 0 rgba(0,0,0,0.5);
@@ -412,7 +412,7 @@ StScrollBar {
     .popup-menu .popup-menu-item:rtl {
       padding: .5em 0em .5em 2em; }
     .popup-menu .popup-menu-item:checked {
-      background-color: #454d50;
+      background-color: #212C30;
       box-shadow: none;
       font-weight: bold; }
     .popup-menu .popup-menu-item:hover, .popup-menu .popup-menu-item:focus {
@@ -440,7 +440,7 @@ StScrollBar {
 .popup-menu-boxpointer,
 .candidate-popup-boxpointer {
   -arrow-border-radius: 6px;
-  -arrow-background-color: #454d50;
+  -arrow-background-color: #212C30;
   -arrow-border-width: 1px;
   -arrow-border-color: rgba(0,0,0,0.3);
   -arrow-base: 24px;
@@ -554,7 +554,7 @@ StScrollBar {
 .resize-popup,
 .switcher-list, .workspace-switcher-container {
   color: #dbdee0;
-  background-color: #454d50;
+  background-color: #212C30;
   border: none;
   border-radius: 8px;
   padding: 12px;
@@ -577,8 +577,8 @@ StScrollBar {
 
 /* TOP BAR */
 #panel {
-  /*background-color: #454d50;*/
-  background-color: rgba(57, 64, 66, 0.95);
+  /*background-color: #212c30;*/
+  background-color: rgba(33, 44, 48, 0.95);
   font-weight: bold;
   height: 1.86em;
   text-shadow:none;}
@@ -588,8 +588,8 @@ StScrollBar {
     spacing: 4px; }
   #panel .panel-corner {
     -panel-corner-radius: 0px;
-    /*-panel-corner-background-color: #454d50;*/
-    -panel-corner-background-color: rgba(57, 64, 66, 0.95);
+    /*-panel-corner-background-color: #212c30;*/
+    -panel-corner-background-color: rgba(33, 44, 48, 0.95);
     -panel-corner-border-width: 2px;
     -panel-corner-border-color: transparent; }
     #panel .panel-corner:active, #panel .panel-corner:overview, #panel .panel-corner:focus {
@@ -675,7 +675,7 @@ StScrollBar {
   background-gradient-direction: none;
   box-shadow: none;
   border: none;
-  background-color: #454d50; }
+  background-color: #212C30; }
 .datemenu-today-button:active,
 .world-clocks-button:active,
 .message-list-section-title:active {
@@ -796,10 +796,10 @@ StScrollBar {
 .message-list-section-close:hover > StIcon,
 .message-list-section-close:focus > StIcon {
   background-color: rgba(255,255,255,0.9);
-  color: #454d50;}
+  color: #212C30;}
 
 .message {
-  background-color: #454d50;
+  background-color: #212C30;
   margin: 4px;
   border-radius: 0px;}
   .message:hover, .message:focus {
@@ -810,7 +810,7 @@ StScrollBar {
     border-radius: 3px;
     transition-duration: 200ms; }
   .message:active {
-    background-color: #454d50;
+    background-color: #212C30;
     box-shadow: none;
     margin: 4px;
     border-radius: 0px; }
@@ -990,7 +990,7 @@ StScrollBar {
   padding: 4px 12px;
   -shell-caption-spacing: 12px; }
   .window-caption:hover {
-    background-color: #454d50;
+    background-color: #212C30;
     color: #dbdee0;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.5); }
 
@@ -1076,7 +1076,7 @@ StScrollBar {
   font-size: 9pt;
   color: #dbdee0;
   /*background-color: #546e7a; */
-  background-color: #454d50;
+  background-color: #212C30;
   padding: 4px 0;
   border: 1px solid rgba(0,0,0,0.05);
   box-shadow: inset 0 0 0 1px rgba(255,255,255,0.05);
@@ -1128,7 +1128,7 @@ StScrollBar {
     border-color: rgba(0,0,0,0);
     border-width: 0px; }
   .app-view-control:checked {
-    color: #454d50;
+    color: #212C30;
     border-color: rgba(0,0,0,0);
     border-width: 0px;
     background-gradient-direction: none;
@@ -1259,7 +1259,7 @@ StScrollBar {
   padding: 8px;
   border-radius: 6px 0 0 6px;
   color: #dbdee0;
-  background-color: #454d50;
+  background-color: #212C30;
   border: 1px solid rgba(0,0,0,0.05);
   box-shadow: inset 0 0 0 1px rgba(255,255,255,0.05);  }
   .workspace-thumbnails:rtl {
@@ -1537,7 +1537,7 @@ StScrollBar {
 
 /* Eeeky things */
 .legacy-tray {
-  background-color: #454d50;
+  background-color: #212C30;
   border: 1px solid rgba(0,0,0,0.7);
   border-bottom-width: 0;
   box-shadow: inset 0 1px 0 0 rgba(255,255,255,0.2); }
@@ -1589,7 +1589,7 @@ StScrollBar {
 .keyboard-key {
   color: #dbdee0;
   background-color: #2d3335;
-  box-shadow: inset 0 1px #454d50;
+  box-shadow: inset 0 1px #212C30;
   text-shadow: 0 1px black;
   icon-shadow: 0 1px black;
   min-height: 2em;
@@ -1602,13 +1602,13 @@ StScrollBar {
   .keyboard-key:focus {
     color: #dbdee0;
     border-color: #9fb0b9;
-    box-shadow: inset 0 1px #454d50;
+    box-shadow: inset 0 1px #212C30;
     text-shadow: 0 1px black;
     icon-shadow: 0 1px black; }
   .keyboard-key:hover, .keyboard-key:checked {
     color: white;
     border-color: rgba(0,0,0,0.7);
-    background-color: #454d50;
+    background-color: #212C30;
     box-shadow: inset 0 1px #5d696d;
     text-shadow: 0 1px black;
     icon-shadow: 0 1px black; }
@@ -1693,7 +1693,7 @@ StScrollBar {
       color: #dbdee0;
       background-color: rgba(57, 64, 66, 0.5);
       border-color: rgba(0,0,0,0.7);
-      box-shadow: inset 0 1px #454d50;
+      box-shadow: inset 0 1px #212C30;
       text-shadow: 0 1px black;
       icon-shadow: 0 1px black; }
       .login-dialog .modal-dialog-button:default:hover, .login-dialog .modal-dialog-button:default:focus {
@@ -1945,7 +1945,7 @@ StScrollBar {
 
 .lg-extension {
   border: none;
-  background: #454d50;
+  background: #212C30;
   border-radius: 2px;
   padding: 6px; }
 
@@ -1957,7 +1957,7 @@ StScrollBar {
 
 #LookingGlassPropertyInspector {
   border-radius: 2px;
-  color: #454d50;
+  color: #212C30;
   background-color: #fff;
   border: none;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
@@ -1975,7 +1975,7 @@ StScrollBar {
   border: none;
   margin-top: 0.5em;
   padding: 4px 32px;
-  color: #dbdee0;  
+  color: #dbdee0;
   font-weight: bold;
   background-gradient-direction: none;
   background-gradient-start: rgba(255,255,255,0);
@@ -2033,10 +2033,10 @@ StScrollBar {
 
 /* Menus */
 .popup-submenu-menu-item:open {
-  background-color: #454d50;}
+  background-color: #212C30;}
 
 .popup-menu-item:active {
-  background-color: #454d50;}
+  background-color: #212C30;}
 
 .popup-menu-item:insensitive {
   color: #999;}
